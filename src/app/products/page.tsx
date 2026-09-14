@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function ProductPage() {
     return (
         <section>
-          <ProductListComponent/>
+         <ProductListComponent/>
         </section>
     )
 }

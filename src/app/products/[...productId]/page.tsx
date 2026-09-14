@@ -1,14 +1,9 @@
-import ProductComponentDetail from "@/components/layout/product/ProductComponentDetail";
-import ProductListDetail from "@/components/layout/product/ProductListDetail";
+import React from 'react'
 
-
-export default async function page({params,}:{
-    params: Promise<{id: number}>
-}) {
-    const {id} = await params;
+export default function page() {
   return (
     <div>
-      <ProductListDetail id={id}/>
+      
     </div>
   )
 }
